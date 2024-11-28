@@ -1,0 +1,7 @@
+run-results
+venv
+__pycache__/
+*.py[cod]
+*.pyc
+tmp.log
+llama.log

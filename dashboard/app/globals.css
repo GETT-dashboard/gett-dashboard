@@ -1,0 +1,58 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --gett-color: 204, 175, 219;
+  --gett-color-light: 229, 215, 237;
+  --gett-color-lighter: 238, 228, 243;
+}
+
+.bg-gett-gradient-1{
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--gett-color-light)),
+      rgb(var(--gett-color-lighter))
+  )
+}
+
+.bg-gett-1{
+  background: rgb(var(--gett-color-light));
+}
+
+body {
+  
+  color: rgb(var(--foreground-rgb));
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content-width{
+      height: 726px;
+  }
+
+}
+
+@media screen and (min-width: 1025px) {
+  .content-width{
+      height: 100vh;
+      min-height: 565px;
+      max-height: 750px;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  .content-width-wrapper{
+      width: calc(100vw - 20rem - 1px);
+  }
+}

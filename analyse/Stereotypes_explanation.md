@@ -1,7 +1,7 @@
 
 # Stereotype Analysis Methodology
 
-To analyze stereotypes embedded in textual data, we employ a systematic multi-step approach that combines natural language processing (NLP), semantic similarity analysis, and statistical thresholds. This methodology ensures a robust evaluation of potential bias in descriptive or occupational texts. Below is an outline of the steps used:
+To analyze stereotypes embedded in textual data, we employ a systematic multi-step approach that combines natural language processing (NLP), semantic similarity analysis, and statistical thresholds. This methodology aims to provide a structured evaluation of potential patterns or biases in descriptive or occupational texts. Below is an outline of the steps used:
 
 ---
 

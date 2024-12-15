@@ -116,4 +116,4 @@ The final stereotype score is the sum of these values for each person.
 
 ## **Step 5: Threshold for Stereotype Inclusion**
 
-We include only individuals with a cumulative stereotype score exceeding a threshold of **3** in stereotype visualization and analysis. The threshold value is currently being further investigated to ensure its robustness and relevance.
+We include only individuals with a cumulative stereotype score exceeding a threshold of **3** in stereotype visualization and analysis. The choice of this threshold is being evaluated by comparing the outputs it generates with human annotations, where stereotypes have been explicitly identified and marked by human evaluators (pilot phase).
